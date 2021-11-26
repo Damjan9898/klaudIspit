@@ -1,0 +1,15 @@
+<%- include("partials/header"); -%>
+
+<div class="user__body">
+  <div class="user__block">
+    <h3 class="login-naslov">Login</h3>
+    <form class="form" action="/admin" method="post" autocomplete="off">
+      <input class="inputi username" type="text" name="username" placeholder="Korisničko ime" autocomplete="off">
+      <input class="inputi password" type="password" name="password" placeholder="Lozinka" autocomplete="off"><br>
+      <button class="dugme" type="submit" name="button">Login</button>
+    </form>
+  </div>
+</div>
+
+
+<%- include("partials/footer"); -%>
