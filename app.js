@@ -36,7 +36,7 @@ const Post = mongoose.model('Post', postsSchema);
 
 const User = mongoose.model('User', usersSchema);
 
-app.get("/klaudIspit", function(req, res){
+app.get("/", function(req, res){
 
   Post.find({}, function(err, foundPosts){
       if(!err){
