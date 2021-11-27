@@ -113,6 +113,6 @@ app.post("/admin", function(req, res){
 
 });
 
-app.listen(process.env.port , function() {
+app.listen(1337 , function() {
   console.log("Server started on port 3000");
 });
